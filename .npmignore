@@ -1,5 +1,5 @@
 src
-test
-yarn.lock
-yarn-error.log
+test-data
+package-lock.json
 tsconfig.json
+*.test.*
