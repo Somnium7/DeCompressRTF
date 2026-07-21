@@ -13,7 +13,7 @@ import { readFile } from 'node:fs/promises';
 import { decompressRTF } from '@kenjiuno/decompressrtf';
 
 const inputBuffer: Buffer = await readFile('./test-data/sample1.bin');
-const outputBuffer: Buffer = decompressRTF(inputArray);
+const outputBuffer: Buffer = decompressRTF(inputBuffer);
 
 console.log(outputBuffer.toString('ascii'));
 ```
