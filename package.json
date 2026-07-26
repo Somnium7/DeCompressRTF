@@ -13,7 +13,7 @@
   "scripts": {
     "build": "node ./build.mjs",
     "test": "node --test --experimental-test-coverage --enable-source-maps \"./lib/**/*.test.mjs\"",
-    "prepublishOnly": "npm run build && npm test"
+    "prepack": "npm run build && npm test"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
