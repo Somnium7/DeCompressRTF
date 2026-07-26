@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Decompress CompressedRTF (used in outlook msg)",
   "author": "kenjiuno",
-  "repository": "github:HiraokaHyperTools/DeCompressRTF",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiraokaHyperTools/DeCompressRTF.git"
+  },
   "license": "BSD-2-Clause",
   "private": false,
   "type": "module",
