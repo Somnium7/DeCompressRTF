@@ -3,3 +3,4 @@ test-data
 package-lock.json
 tsconfig.json
 *.test.*
+*.bak
