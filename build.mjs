@@ -77,5 +77,5 @@ async function writeJson(path, json) {
 }
 
 function execTsc(args = []) {
-  execFileSync(process.execPath, ['node_modules/typescript/lib/tsc.js', ...args], { stdio: 'inherit', stdout: 'inherit', stderr: 'inherit' });
+  execFileSync(process.execPath, ['node_modules/typescript/lib/tsc.js', ...args], { stdio: 'inherit' });
 }
